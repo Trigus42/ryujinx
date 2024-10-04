@@ -1,0 +1,1789 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="firmware-dumping/">
+      
+      
+      <link rel="icon" href="../assets/icon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
+    
+    
+      
+        <title>Index - Ryujinx</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#table-of-contents" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Ryujinx" class="md-header__button md-logo" aria-label="Ryujinx" data-md-component="logo">
+      
+  <img src="../assets/icon-border.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ryujinx
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ryujinx-mirror/ryujinx" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ryujinx-mirror/ryujinx
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href=".." class="md-tabs__link">
+          
+  
+    
+  
+  Home
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Ryujinx" class="md-nav__button md-logo" aria-label="Ryujinx" data-md-component="logo">
+      
+  <img src="../assets/icon-border.svg" alt="logo">
+
+    </a>
+    Ryujinx
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ryujinx-mirror/ryujinx" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ryujinx-mirror/ryujinx
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href=".." class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1" id="__nav_1_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    Setup
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_1_2" id="__nav_1_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="firmware-dumping/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Firmware Dumping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="keys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Keys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="multiplayer-ldn/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Multiplayer
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../dev-guide/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Development Guide
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_3" id="__nav_1_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Development Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev-guide/coding-guidelines/coding-style/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code Style
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev-guide/workflow/pr-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PR Guidelines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../dev-guide/guides/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_1_3_4" id="__nav_1_3_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_1_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dev-guide/guides/metal-frame-capture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mac Metal Frame Capture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_1_4" id="__nav_1_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Support
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Support
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ / Troubleshooting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changelog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Change Log
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preface" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preface
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      System Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dependencies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-setup-placement-of-prodkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial Setup - Placement of prod.keys
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#initial-setup-continued-installation-of-firmware" class="md-nav__link">
+    <span class="md-ellipsis">
+      Initial Setup Continued - Installation of Firmware
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adding-your-games-to-ryujinx" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adding Your Games to Ryujinx
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-game-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Game Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-dlc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing DLC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-mods" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Mods
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-cheats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Cheats
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing Cheats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation-of-atmosphere-cheats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation of Atmosphere Cheats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#activatingdeactivating-cheats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activating/Deactivating cheats
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-user-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing User Profiles
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing User Profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-edit-a-user-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      To edit a user profile:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-add-a-new-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      To add a new profile:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#input-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input Configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#motion-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motion Controls
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Motion Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#motion-controls_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motion Controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#amiibo-emulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Amiibo Emulation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#profiled-persistent-translation-cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      Profiled Persistent Translation Cache
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#graphics-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Graphics Enhancements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#portable-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Portable Mode
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#launch-in-fullscreen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Launch in Fullscreen
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<p>This article assumes you have already <strong><a href="https://nh-server.github.io/switch-guide/">hacked your Nintendo Switch</a></strong> and <strong><a href="../keys.md">dumped your Nintendo Switch keys</a></strong> (prod.keys) and firmware file(s).</p>
+<p>This guide also illustrates how to use an untrimmed game cartridge dump (XCI file) to install firmware directly to Ryujinx.
+If you would prefer to dump the firmware standlone, you may follow this <strong><a href="firmware-dumping/firmware-dumping.md">firmware dumping guide</a>)</strong>.  </p>
+<p>If you haven't already downloaded Ryujinx, get the latest version
+from: <a href="https://ryujinx.org/download">https://ryujinx.org/download</a>.<br />
+Ryujinx checks for updates automatically at startup. You can disable this feature if you wish in Options &gt; Settings . You may also check for updates manually by navigating to Help &gt; Check for Updates.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p><a href="#preface">Preface</a></p>
+<p><a href="#system-requirements">System Requirements</a></p>
+<p><a href="#dependencies">Dependencies</a></p>
+<p><a href="#initial-setup---placement-of-prodkeys">Initial Setup - Placement of prod.keys</a></p>
+<p><a href="#initial-setup-continued---installation-of-firmware">Initial Setup Continued - Installation of Firmware</a></p>
+<p><a href="#adding-your-games-to-ryujinx">Adding Your Games to Ryujinx</a></p>
+<p><a href="#managing-game-updates">Managing Game Updates</a></p>
+<p><a href="#managing-dlc">Managing DLC</a></p>
+<p><a href="#managing-mods">Managing Mods</a></p>
+<p><a href="#managing-cheats">Managing Cheats</a></p>
+<p><a href="#managing-user-profiles">Managing User Profiles</a></p>
+<p><a href="#input-configuration">Input Configuration</a></p>
+<p><a href="#motion-controls">Motion Controls</a></p>
+<p><a href="#amiibo-emulation">Amiibo Emulation</a></p>
+<p><a href="#profiled-persistent-translation-cache">Profiled Persistent Translation Cache</a></p>
+<p><a href="#graphics-enhancements">Graphics Enhancements</a></p>
+<p><a href="#portable-mode">Portable Mode</a></p>
+<p><a href="#launch-in-fullscreen">Launch in Fullscreen</a></p>
+<h1 id="preface">Preface</h1>
+<p>Ryujinx comes pre-optimized by default. If a particular menu option is
+not mentioned in this guide, it should be ignored and should not be
+changed unless directly instructed by Ryujinx staff.</p>
+<p><strong><em>When requesting support on the Ryujinx official Discord server, you
+will usually be asked for your log file. With this in mind, Logging
+should be left at default settings (enabled) for everything except debug
+logs. Do not enable debug logs unless specifically instructed by Ryujinx
+staff.</em></strong></p>
+<h1 id="system-requirements">System Requirements</h1>
+<p>In order to use <em>Ryujinx</em> your computer will need:</p>
+<ul>
+<li>
+<p>At least 8GB RAM</p>
+</li>
+<li>
+<p>A video card/GPU that supports OpenGL 4.5/Vulkan 1.2 or higher</p>
+</li>
+<li>
+<p>Your <strong>prod.keys</strong> and either your <strong><a href="firmware-dumping/firmware-dumping.md">dumped firmware</a></strong> or game
+    cartridge untrimmed XCI</p>
+</li>
+<li>
+<p>Your dumped Nintendo Switch games or homebrew</p>
+</li>
+<li>
+<p>Windows 10.0.17134 or higher / macOS 12 / Any modern linux distribution (see dependencies)</p>
+</li>
+</ul>
+<p>A recommended <strong>baseline</strong> system (native resolution and framerate) would look something like:</p>
+<ul>
+<li>CPU: Ryzen 5 3600</li>
+<li>RAM: 16GB DDR4</li>
+<li>GPU: NVIDIA GTX 1060 6GB</li>
+</ul>
+<h1 id="dependencies">Dependencies</h1>
+<p><strong>Windows</strong>
+-   <strong>Windows 10 RS4 (Redstone 4, version 1803) or newer</strong> is required.
+-   Graphics drivers must be up to date. On laptops with 2 different graphics cards, both iGPU and dGPU drivers must be updated.</p>
+<p><strong>Linux</strong><br>
+copy the command into your terminal emulator of choice and execute it
+-   <em>Archlinux based distros:</em><br>
+<code>sudo pacman -S sdl2 openal</code></p>
+<ul>
+<li>
+<p><em>Ubuntu based distros:</em><br>
+<code>sudo apt-get install libsdl2-2.0 libsdl2-dev libalut-dev</code></p>
+</li>
+<li>
+<p><em>Fedora:</em><br>
+<code>sudo dnf install SDL2-devel openal-soft</code></p>
+</li>
+</ul>
+<p><strong>MacOS</strong>
+- macOS 12 Monterey or latest (recommended) installed.</p>
+<h1 id="initial-setup-placement-of-prodkeys">Initial Setup - Placement of prod.keys</h1>
+<p>By default Ryujinx will use <code>%appdata%/Ryujinx</code> (or the equivalent application data folder on Linux/macOS) to store all of it's permanent files. This includes firmware, save files, shader caches and other configuration. If you wish Ryujinx to be fully self-contained you may use <a href="#portable-mode">portable mode!</a></p>
+<ol>
+<li>
+<p>Now that you've downloaded the <em>Ryujinx</em> archive, open it and
+    extract the contents of the publish folder onto your drive in
+    the location of your choice. We recommend against using your desktop 
+    or the root of any drive as these can sometimes be protected.</p>
+</li>
+<li>
+<p>Navigate to where you extracted the <em>Ryujinx</em> files, and
+    double-click on <em>Ryujinx.exe</em>. This will launch the emulator and you
+    will be met with the following message (don't worry; this is
+    normal!)
+    <img alt="image" src="https://github.com/ryujinx-mirror/ryujinx/assets/44103205/8581e188-2ac7-479f-ab49-f72034d4071e" /></p>
+</li>
+<li>
+<p>Click <em>OK</em> on the warning box.\
+    Now that <em>Ryujinx</em> has been launched, the proper folders have been
+    created for you in your %appdata% folder.</p>
+</li>
+<li>
+<p>Click <em>File</em> at the top left of the <em>Ryujinx</em> window, and then click
+    <em>Open Ryujinx</em> <em>Folder</em>.\
+    <img alt="image" src="https://github.com/ryujinx-mirror/ryujinx/assets/44103205/955c55d0-4084-4239-ad23-d8b1fc5414f8" /></p>
+</li>
+<li>
+<p>Navigate down into the system subfolder and paste your prod.keys file
+    here. The file/folder structure should look like this (JohnDoe
+    substituted for your username):\
+    <img alt="image" src="assets/86277827-9d7d2600-bb94-11ea-9900-b5351364fd14.png" /></p>
+</li>
+<li>
+<p>Close and reopen <em>Ryujinx</em> so that the prod.keys file is validated.\
+    You're done installing keys!</p>
+</li>
+</ol>
+<h1 id="initial-setup-continued-installation-of-firmware">Initial Setup Continued - Installation of Firmware</h1>
+<p>Now that your keys are installed, it's time to install a firmware. Make
+sure you have an untrimmed XCI file of a recent game cartridge you
+dumped, or have compiled your <a href="https://github.com/ryujinx-mirror/ryujinx/wiki/Firmware-Dumping-Guide">dumped firmware</a> into a ZIP file.</p>
+<ol>
+<li>
+<p>Open <em>Ryujinx</em>. There should be no warning about KEYS.md anymore; if
+    you still get the warning, go back through the prod.keys steps and
+    ensure you have placed the file correctly.</p>
+</li>
+<li>
+<p>Now that <em>Ryujinx</em> is open, click <em>Tools &gt; Firmware &gt; Install from
+    XCI/ZIP</em>\
+    <img alt="image" src="https://github.com/ryujinx-mirror/ryujinx/assets/44103205/405afd16-9e0a-4911-a82f-575dc8939e36" />\
+    This brings up the "Choose the firmware file to open" window.\
+    \
+    <img alt="image" src="https://github.com/ryujinx-mirror/ryujinx/assets/44103205/fc03f9eb-1210-41be-ab7b-b9ee4f1fce98" /></p>
+</li>
+<li>
+<p>Using the <em>Ryujinx</em> window, navigate to the location of your dumped
+    XCI file and click <em>Open</em>. You will be asked to confirm whether you
+    want to install the firmware. Make sure your prod.keys are at least
+    as new as the firmware you are installing!\
+    (Your firmware version number may vary)\
+    \
+    <img alt="image" src="https://github.com/ryujinx-mirror/ryujinx/assets/44103205/804c398c-3b2b-446f-aabd-8e7129bec19e" /></p>
+</li>
+<li>
+<p>Click <em>Yes</em>. You will see a message that the firmware is
+    installing and was successfully installed:\
+    <img alt="image" src="https://github.com/ryujinx-mirror/ryujinx/assets/44103205/155c02c5-dd0d-4888-a94b-23eabff84821" /></p>
+</li>
+<li>
+<p>Click <em>OK</em>. If all went well, you will now see your firmware version
+    listed as the "System Version" in the bottom right hand corner of
+    the main <em>Ryujinx</em> window.\
+<img alt="image" src="assets/86278217-4035a480-bb95-11ea-9803-fabc39dbec5b.png" /></p>
+</li>
+</ol>
+<h1 id="adding-your-games-to-ryujinx">Adding Your Games to Ryujinx</h1>
+<p>You have keys and firmware ready to go. Time to add your games!</p>
+<p>With <em>Ryujinx</em> open, click on <em>Options &gt; Settings</em>. This takes you
+straight to the <em>General</em> tab.\
+<img alt="image" src="assets/86278362-7c690500-bb95-11ea-9667-cb61e7d45b8e.png" /></p>
+<p>There are two different methods in which you can add a Game Directory in this window.\
+\
+<strong>1st Method:</strong>\
+Type the absolute path of the folder containing your games into the path
+field and click <em>Add</em>.\
+<img alt="image" src="assets/86278453-a6bac280-bb95-11ea-8bb0-005e89dbb295.png" />\
+\
+<strong>2nd Method:</strong>\
+Without typing anything into the path field, click <em>Add</em>.\
+<img alt="image" src="assets/86278489-b76b3880-bb95-11ea-929c-da8b53052406.png" />\</p>
+<p>\
+This brings up the navigation window. Navigate to the folder containing
+your games (e.g. D:\Switch Games) and click <em>Add</em>.\
+<img alt="image" src="assets/86278572-d5d13400-bb95-11ea-98e6-91a58667a538.png" /></p>
+<ol>
+<li>
+<p>Whichever method you chose, <strong>click <em>Save</em></strong> to save the game
+    directory setting.</p>
+</li>
+<li>
+<p>Your games will now show up in the main <em>Ryujinx</em> window.\
+    <img alt="image" src="assets/86278608-e7b2d700-bb95-11ea-8b2c-f12b1b7f0fcc.png" /></p>
+</li>
+</ol>
+<h1 id="managing-game-updates">Managing Game Updates</h1>
+<p>Manage game update versions from within Ryujinx</p>
+<p>Now that your games are added, you may wish to update your game for
+various reasons e.g. bugfixes, new content, etc. <em>Ryujinx</em> has built-in
+functionality to manage which version of the game you want to play.</p>
+<ol>
+<li>
+<p>In the main <em>Ryujinx</em> game list right-click the game you want to
+    apply an update to. Then click <em>Manage Title Updates</em>.\
+    <img alt="image" src="assets/86278648-fef1c480-bb95-11ea-8a28-6099f5e0c8bf.png" />\
+    \
+    After clicking <em>Manage Title Updates</em>, you will see the <em>Ryujinx --
+    Title Update Manager</em> menu.</p>
+</li>
+<li>
+<p>In the <em>Ryujinx -- Title Update Manager</em> menu, click <em>Add</em>.\
+    <img alt="image" src="assets/86278688-0d3fe080-bb96-11ea-8aae-f353f2dc952d.png" /></p>
+</li>
+<li>
+<p>Clicking <em>Add</em> will bring up the navigation menu. Navigate to the
+    location of your game's update files and select update you want to
+    add to <em>Ryujinx</em>, and click <em>Add</em>.\
+   <img alt="image" src="assets/86278723-16c94880-bb96-11ea-972f-bb1c8683ed6d.png" />\
+    This will bring you back to the <em>Ryujinx -- Title Update Manager</em>
+    window. You may repeat this for any other game version update files
+    you wish to add to <em>Ryujinx</em>.</p>
+</li>
+<li>
+<p>In the <em>Ryujinx -- Title Update Manager</em> window, select the version
+    of the update you wish to be applied to the game and click <em>Save</em>.\
+    <img alt="image" src="assets/86278755-22b50a80-bb96-11ea-9c1c-c4fc13a0e4cb.png" /></p>
+</li>
+<li>
+<p>Verify that the proper version number is shown in the main <em>Ryujinx</em>
+    games list window.\
+    <img alt="image" src="assets/86278789-2e083600-bb96-11ea-9b55-816a81b53601.png" />\
+    \
+    Your game update has now been applied, and you may repeat the
+    process for any other games you wish to apply updates to.</p>
+</li>
+</ol>
+<h1 id="managing-dlc">Managing DLC</h1>
+<p>Manage Downloadable Content for your games</p>
+<p>Some games have downloadable content available that you may wish to add
+to your game. <em>Ryujinx</em> has built-in functionality to add &amp; manage your
+DLC.</p>
+<ol>
+<li>
+<p>With <em>Ryujinx</em> open, right-click on the game you want to add or
+    manage DLC for and click <em>Manage DLC</em> to bring up the <em>Ryujinx - DLC
+    Manager</em> window.\
+    <img alt="image" src="assets/86278819-37919e00-bb96-11ea-93cb-0a266c0c1b24.png" /></p>
+</li>
+<li>
+<p>Within the <em>Ryujinx -- DLC Manager</em> window, click <em>Add</em> to open the
+    DLC navigation screen.\
+    <img alt="image" src="assets/86278847-40826f80-bb96-11ea-99bf-05c22af2c680.png" /></p>
+</li>
+<li>
+<p>Navigate to the location of the DLC file(s) you wish to apply, then
+    double-click the file to automatically add it. Or you may select the
+    file or files, and click <em>Add</em>.\
+    <strong>Note: you may add more than one DLC file at a time!</strong>\
+    <img alt="image" src="assets/86278879-5001b880-bb96-11ea-9fb3-859efbd631f9.png" /></p>
+</li>
+<li>
+<p>You will now see your DLC in the <em>Ryujinx - DLC Manager</em> window.
+    <strong>Click <em>Save</em></strong> to save your configuration.\
+    <img alt="image" src="assets/86286616-08822900-bba4-11ea-838e-eaf95c98d6dc.png" />\
+    \
+    <strong>Note: always drill down to see the proper status of the DLC .nca file you are managing. Checking and unchecking the .nca file is the way to enable and disable the DLC. The parent container (.nsp file) shows unchecked by default, even if the DLC is enabled.</strong>  </p>
+</li>
+</ol>
+<p>Repeat this process, if you wish, for any other games you would like to manage DLC for.</p>
+<h1 id="managing-mods">Managing Mods</h1>
+<p>Quick Start Guide for managing mods</p>
+<p>Various game mods are available from enthusiasts &amp; content creators online. <em>Ryujinx</em> supports the following types of mods:
+1. ExeFS Partition Replacement
+2. ExeFS File Replacement
+3. ExeFS Patching
+4. RomFS Partition Replacement
+5. RomFS File Replacement</p>
+<p><strong>For an in-depth explanation of the mods implementation &amp; advanced usage options in <em>Ryujinx</em>, check the description in the original PR <a href="https://github.com/ryujinx-mirror/ryujinx/pull/1249">here</a></strong>.</p>
+<p>To enable mods:</p>
+<ol>
+<li>With <em>Ryujinx</em> open, right-click on the game you wish to manage mods for and click <em>Open Mods Directory</em>.</li>
+</ol>
+<p><img alt="image" src="assets/87058158-f9fbc900-c1c4-11ea-8dcd-7bea51fc71e6.png" /></p>
+<p>This will open the <code>AppData\Roaming\Ryujinx\mods\contents\&lt;game ID&gt;\</code> folder.</p>
+<ol>
+<li>Create a subfolder under the game id folder with an appropriate name conveying the mod you will be using. For instance, you might name the folder "Lana" if you were using a mod to add a Lana skin to Mario Kart 8 Deluxe.</li>
+</ol>
+<p><img alt="image" src="assets/87060018-3d573700-c1c7-11ea-82f8-3a54c788490c.png" /></p>
+<ol>
+<li>Copy your mod's romfs folder or exefs folder into the new folder you created.</li>
+</ol>
+<p><img alt="image" src="assets/87071634-b3fc3080-c1d7-11ea-8a28-a1aa86009f5c.png" /></p>
+<p>Mods can also be placed in the <code>AppData\Roaming\Ryujinx\sdcard</code> folder if the mod has been packaged for real hardware (usually indicated with an "atmosphere" folder as the top directory). With <em>Ryujinx</em> open, right-clicking on the game you wish to manage SD mods for and clicking <em>Open Atmosphere Mods Directory</em> will open the <code>AppData\Roaming\Ryujinx\sdcard\atmosphere\contents\&lt;game ID&gt;</code> folder where the romfs/exefs folders are located.</p>
+<p><img alt="image" src="assets/156943587-5242ccda-d74d-4d2f-8446-a1941beb4c2c.png" />
+<img alt="image" src="assets/156943543-ea49ec82-57b7-46eb-a12e-5daf64b1cad5.png" /></p>
+<h1 id="managing-cheats">Managing Cheats</h1>
+<p>Ryujinx now has native cheats/runtime mods support!<br />
+It implements full support Atmosphere style cheats (except game pausing/resume): 
+https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md</p>
+<h2 id="installation-of-atmosphere-cheats">Installation of Atmosphere Cheats</h2>
+<p>A good place to acquire Atmosphere cheats is:</p>
+<ul>
+<li>https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/tree/master/Cheats (general switch cheats)</li>
+</ul>
+<p>Inside the cheat <code>zip</code>, <code>rar</code>, or other archive format, there is usually a file structure like this:</p>
+<pre><code>Cheat_Name\cheats\0123456789ABCDEF.txt
+</code></pre>
+<p>Where <code>0123456789ABCDEF</code> will vary according to the game and the cheat (this is the build id of the executable the cheat attaches itself to). A cheat can also contain several <code>txt</code> files. <strong>Cheats are game-specific and version-specific, they will not work if transferred from one game to another or to an incompatible update of the game.</strong></p>
+<p>To install the cheat: </p>
+<ul>
+<li>Open Ryujinx, right-click the game you wish to install the cheat and select to open its <code>Mod directory</code>;</li>
+<li>A directory like this will open: <code>Ryujinx\mods\contents\XXXXXXXXXXXXXXXX\</code>, <code>XXXXXXXXXXXXXXXX</code> will be the id of the chosen game;</li>
+<li>Extract the cheat archive to the mod directory, keeping the cheat name: <code>Ryujinx\mods\contents\XXXXXXXXXXXXXXXX\Cheat_Name\cheats\&lt;all the txt files&gt;</code>.</li>
+</ul>
+<h2 id="activatingdeactivating-cheats">Activating/Deactivating cheats</h2>
+<p>Currently, all cheats are automatically enabled and cannot be disabled, so mixing, for instance, 60, 90 and 120 fps cheats may cause a conflict. </p>
+<p>One alternative is to create a directory <code>disabled_cheats</code> in the mod directory and move all unused cheats there. Another one is to prepend something to the file name, for instance <code>off_0123456789ABCDEF.txt</code> as a valid cheat must not have anything but <code>0123456789ABCDEF.txt</code> in its name.</p>
+<p>The .txt files can also contain several cheats that may conflict. To switch off individual cheats inside a .txt file first <strong>backup the .txt file</strong> to something like <code>bak_0123456789ABCDEF.txt</code> (this will also prevent the backup to be loaded as a cheat). Next, in the .txt file, there will be sections, each with a name within <code>[ ]</code> brackets and filled with sequences of letters and numbers (the code of the cheat), for instance:</p>
+<pre><code>[New Super Mario Bros. U Deluxe]
+
+[Start with 99 Lives]
+58000000 00CC9860
+78000000 0002A1C0
+61000000 00000000 00000063
+
+[Time = 999]
+58000000 00C88A70
+78001000 00000090
+64000000 00000000 003E6F00
+
+[Start as Penguin]
+58000000 00CC9860
+78000000 0002A1C4
+61000000 00000000 00000005
+</code></pre>
+<p>To disable the time cheat, just remove its section and the code:</p>
+<pre><code>[New Super Mario Bros. U Deluxe]
+
+[Start with 99 Lives]
+58000000 00CC9860
+78000000 0002A1C0
+61000000 00000000 00000063
+
+[Start as Penguin]
+58000000 00CC9860
+78000000 0002A1C4
+61000000 00000000 00000005
+</code></pre>
+<h1 id="managing-user-profiles">Managing User Profiles</h1>
+<p>Ryujinx offers the ability to use multiple, customizable user profiles. <strong>WARNING:</strong> Save data is specific to each user profile so if you delete a profile, the save data under that profile is also deleted.</p>
+<h3 id="to-edit-a-user-profile">To edit a user profile:</h3>
+<ol>
+<li>With Ryujinx open, but no game running, click on Options &gt; Manage User Profiles<br />
+<img alt="image" src="assets/115936775-62b1ea80-a453-11eb-9df8-5d39cf414057.png" /></li>
+</ol>
+<p>Now in the Manage User Profiles window, you will see the default RyuPlayer profile. This is the default profile that comes with Ryujinx and <strong>cannot be deleted</strong> as it contains all of the original save data for your games. You may, however, rename it and change the picture to something else, if you like.<br />
+<img alt="image" src="assets/115936853-98ef6a00-a453-11eb-9bdb-2b2076ff529d.png" />  </p>
+<ol>
+<li>
+<p>To rename a profile, simply select it and type in the new text.<br />
+<img alt="image" src="assets/115936950-e1a72300-a453-11eb-9d5d-027826457759.png" />  </p>
+</li>
+<li>
+<p>To change the profile image, select the profile in the list and click <strong>Change Profile Image</strong>.<br />
+<img alt="image" src="assets/115937027-10bd9480-a454-11eb-977a-2afdec837dab.png" />  </p>
+</li>
+</ol>
+<p>You will then be prompted to select from either a custom image, or from one of the many avatars provided in the firmware.<br />
+<img alt="image" src="assets/115937083-2df26300-a454-11eb-95de-7db4a12aaa45.png" /></p>
+<p>If you choose to import an image: supported formats are <code>png</code>, <code>bmp</code>, and <code>jpg</code>. You can use the image you want, but it will be resized to 256x256 pixels, so using a square image is recommended.</p>
+<p>If you choose to use a built-in firmware avatar, click on <strong>Select Firmware Avatar</strong>  </p>
+<p>In the Manage Accounts - Avatar window, select the avatar you want, and choose a background color. When finished, click <strong>Choose</strong> to make it the profile's image.
+<img alt="image" src="assets/115937295-df919400-a454-11eb-90ac-f31263ec543e.png" /></p>
+<p><img alt="image" src="assets/115937710-b7566500-a455-11eb-905c-c748e8baeae8.png" /></p>
+<h3 id="to-add-a-new-profile">To add a new profile:</h3>
+<ol>
+<li>
+<p>With Ryujinx open, but no game running, click on Options &gt; Manage User Profiles<br />
+<img alt="image" src="assets/115936775-62b1ea80-a453-11eb-9df8-5d39cf414057.png" /></p>
+</li>
+<li>
+<p>Click on the <strong>Add New Profile</strong> button at the bottom left corner of the window.  </p>
+</li>
+</ol>
+<p><img alt="image" src="assets/115938010-8a568200-a456-11eb-8a1b-a610fd8f5c7e.png" />  </p>
+<ol>
+<li>A window will pop up asking you to name the new Profile. Enter the desired name of the new profile, and click OK.  </li>
+</ol>
+<p><img alt="image" src="assets/115938038-9e9a7f00-a456-11eb-8464-3855cde7241d.png" /></p>
+<ol>
+<li>You will now be prompted to choose the profile image. Follow step 3 from the user profile editing instructions above.  </li>
+</ol>
+<p><img alt="image" src="assets/115938416-c9390780-a457-11eb-9761-eff2e0dd5efa.png" /></p>
+<p>That's it!</p>
+<h1 id="input-configuration">Input Configuration</h1>
+<p>Setting up your controls: this part requires close attention, so read
+carefully!</p>
+<ol>
+<li>
+<p>Plug in the controller(s) that you will be using.</p>
+</li>
+<li>
+<p>Open <em>Ryujinx</em> and navigate to <em>Options &gt; Settings</em>\
+    !<img alt="image" src="assets/86278975-7aec0c80-bb96-11ea-897f-9a4ed393f3b0.png" /></p>
+</li>
+<li>
+<p>You will now see the <em>Ryujinx - Settings</em> window. Click on the
+    <em>Input</em> tab.\
+    <img alt="image" src="assets/86278991-82abb100-bb96-11ea-9a00-adacae14b34c.png" /></p>
+</li>
+</ol>
+<p>Before proceeding to configure anything, the options on the Input page
+need some explanation:</p>
+<p><em>Direct Keyboard Access</em>: checking this box emulates a real, physical
+keyboard being directly connected to a Nintendo Switch via USB. <strong><em>Do
+not check this box unless you have a specific reason</em></strong></p>
+<p><em>Enable Docked Mode</em>: checking this box emulates the Nintendo Switch
+being docked. Docked Mode enables higher resolution, higher FPS, and
+better graphical fidelity on games that support these features.\
+<strong>If you check this box, you will need to click configure under Player</strong>
+<strong>1 (top left menu item)</strong>\
+<strong>If you leave this box unchecked, you will need to click configure under</strong>
+<strong>Handheld (bottom right menu item)</strong>\</p>
+<ol>
+<li>
+<p>Click <em>Configure</em> under <em>Player 1</em> if you have enabled <em>Docked
+    Mode</em>, or click configure <em>Handheld</em> if you have not enabled <em>Docked
+    Mode</em>.\
+    <img alt="image" src="assets/86279008-8d664600-bb96-11ea-9ed3-32034ad9f53a.png" /></p>
+</li>
+<li>
+<p>You should now be in the <em>Ryujinx -- Controller Settings</em> screen.
+    Click on the <em>Input Device</em> dropdown and choose the <em>Xinput
+    controller</em>. If you have connected multiple controllers, choose the
+    one you want to be configured to be P1 in game. <strong>If you do not see</strong>
+    <strong>any Xinput controllers in the list, you will need to use an Xinput</strong>
+    <strong>wrapper/translator such as</strong>
+    <a href="https://www.x360ce.com/">x360ce</a>.\
+    <img alt="image" src="assets/86279068-a969e780-bb96-11ea-913c-6da064e6d7a6.png" /></p>
+</li>
+<li>
+<p>After selecting your Xinput controller you should now see a full
+    mapping UI. If you want to map the buttons in a standard
+    Xinput-compatible fashion, there is no need to individually map the
+    buttons. Simply click on the empty <em>Profile</em> dropdown, select
+    <em>Default</em>, and click <em>Load</em>. This populates the buttons with preset
+    mappings for your Xinput-compatible (or Xinput wrapped/translated)
+    controller. Otherwise, click on "<em>Unbound</em>" for each button you want
+    to map, then press the actual button on your controller that you
+    want for the Nintendo Switch controller button you've
+    chosen.
+<img alt="image" src="assets/86279165-d1f1e180-bb96-11ea-9d77-b9c029ce5b3a.png" />
+    \
+    You may continue tweaking the settings to your liking, or binding
+    each button from scratch if you want a fully custom button layout.\
+    <strong>NOTE: while the default <em>Deadzones</em> are 0.10, we recommend
+    increasing your <em>Deadzones</em> to at least 0.20 in order to avoid
+    unwanted joystick drift.</strong></p>
+</li>
+</ol>
+<p>If you are in <em>Docked Mode</em> and have additional controllers to
+configure, configure them now under Player 2, Player 3, and so on.</p>
+<ol>
+<li><strong><em>Click Save to save your configuration.</em></strong></li>
+</ol>
+<p>Alternately, you may skip the input UI and edit your config.json file
+found in %appdata%\ryujinx\</p>
+<h1 id="motion-controls">Motion Controls</h1>
+<h3 id="motion-controls_1">Motion Controls</h3>
+<p>Ryujinx offers the ability to use motion controls with motion-enabled controllers such as a Switch Pro Controller, Joycons, Playstation DS4, smartphones with motion support, Steam controller, and others.</p>
+<p>To use motion controls in Ryujinx:</p>
+<ol>
+<li>
+<p>Launch &amp; configure your favorite cemuhook server application (Betterjoy, DS4Windows, Steam Gyro, etc.) with your bluetooth or wired motion-enabled controller. Leave the application running.</p>
+</li>
+<li>
+<p>In Ryujinx, navigate to Options &gt; Settings &gt; Input tab and select which controller you are configuring. Remember: if you are in docked mode, configure Player 1. If you are in Handheld mode, configure the Handheld controller.</p>
+</li>
+</ol>
+<p><img alt="image" src="assets/92328779-5c841080-f020-11ea-80a1-af54341c4deb.png" /></p>
+<ol>
+<li>Select your motion controller from the dropdown. It will be listed as "Xinput controller". </li>
+</ol>
+<p><img alt="image" src="assets/92328812-9ead5200-f020-11ea-88f4-706c8f2bd5b6.png" /></p>
+<ol>
+<li>
+<p>Configuration options:</p>
+</li>
+<li>
+<p>If you have already configured your controller's input buttons to your liking and only need to configure motion controls, check the "Enable Motion Controls" box and fill in the following information:  </p>
+</li>
+</ol>
+<p><strong>Controller Slot:</strong> the controller slot # your motion controller is configured as in your cemuhook server application. Default is "0"
+<strong>Gyro Sensitivity:</strong> 100% (you may adjust this to suit)
+<strong>Server Host:</strong> the IP address of the computer being used to host the cemuhook server. 127.0.0.1 is localhost/the same computer running Ryujinx.
+<strong>Server Port:</strong> 26760</p>
+<p><img alt="image" src="assets/92329071-542cd500-f022-11ea-9aff-9b1e22f29b61.png" /></p>
+<ul>
+<li>Alternately, you can simply click on the empty Profile dropdown, select Default, and click Load. This populates the buttons with preset mappings and also fills in the motion control settings with recommended defaults. You may continue tweaking the settings to your liking, or binding each button from scratch if you want a fully custom button layout.</li>
+</ul>
+<p><strong>NOTE: while the default Deadzones are 0.10, we recommend increasing your Deadzones to at least 0.20 in order to avoid unwanted joystick drift.</strong>
+Make sure to check the "Enable Motion Controls" box!</p>
+<p><img alt="image" src="assets/92328941-740fc900-f021-11ea-9663-ee1eeee47cee.png" /></p>
+<ul>
+<li>Paired Joycons extra options:</li>
+</ul>
+<p>If you set your controller type to Joycon Pair, an option called "Mirror Input" becomes available. This is useful for games in which both Joycons are connected to a Joycon grip and are moving together. If you enable this checkbox, the first Joycon's motion will be used for both Joycons.</p>
+<p><img alt="image" src="assets/92338812-00e17380-f070-11ea-9090-e94abe4d1134.png" /></p>
+<ol>
+<li>Click Save to save your configuration.</li>
+</ol>
+<p>Repeat steps 2 through 5 for any other motion controllers you wish to configure. If you have more than one, make sure to choose the respective slot # for each controller!</p>
+<h1 id="amiibo-emulation">Amiibo Emulation</h1>
+<p>All Amiibo are able to be virtually scanned within the emulator, as long as you are actively connected to the internet. No files or dumps are required!</p>
+<p><strong>To scan an Amiibo:</strong>
+1. While playing a game that supports Amiibo, either navigate to the area where Amiibo scanning is expected, or press/hold the correct button to enable the Amiibo scan prompt (this site has a basic list of supported games and what benefits are provided by each: https://amiibo.life/games<br />
+2. Click the "Actions" menu header, then click "Scan an Amiibo"<br />
+<img alt="unknown1" src="assets/111011795-d82d9400-839a-11eb-8798-c426fe5bc973.png" /><br />
+3. Choose the Amiibo you want from the Amiibo Series and Character dropdowns. Note: only the Amiibo that have content for the game you are currently playing are shown in this window. All the same, if you'd like to see all Amiibo you may check the box that says "Show All Amiibo".<br />
+<img alt="unknown2" src="assets/111011810-e8de0a00-839a-11eb-8a5c-d03b0e094ec4.png" /><br />
+<strong>Addendum:</strong> In The Legend of Zelda: Breath of the Wild, you may continually scan Amiibo as many times as you wish by checking the box labeled "Hack: Use Random Tag Uuid" box.</p>
+<h1 id="profiled-persistent-translation-cache">Profiled Persistent Translation Cache</h1>
+<p>Speed up game loading times with PPTC</p>
+<p>In a nutshell, this feature caches translated functions so that they do
+not need to be translated every time the game loads. This results in a
+significant reduction of load times --the amount of time between
+launching a game and arriving at the title screen-- for nearly every
+game.</p>
+<p><strong>NOTE: You must launch the game at least twice and let it load</strong>
+<strong>to the title screen or beyond before performance improvements are</strong>
+<strong>unlocked on the third launch! These improvements are permanent and do</strong>
+<strong>not require any extra launches going forward.</strong></p>
+<p>PPTC (Profiled Persistent Translation Cache) is now enabled by default. To disable it:</p>
+<ol>
+<li>
+<p>With <em>Ryujinx</em> open, click on <em>Options &gt; Settings</em>\
+    <img alt="image" src="assets/86279303-082f6100-bb97-11ea-92bc-68f24612d7e2.png" /></p>
+</li>
+<li>
+<p>Then navigate to the <em>System</em> tab and <strong>uncheck the box</strong> marked
+    <em>Enable Profiled Persistent Translation Cache</em>\
+    <img alt="image" src="assets/86279433-3b71f000-bb97-11ea-8bd2-0435ba8ece33.png" /></p>
+</li>
+</ol>
+<p>From time to time you may wish to examine or purge your PPTC cache files if you are experiencing PPTC-related issues.</p>
+<p>To open the PPTC cache file location:
+1.  With Ryujinx open, right-click the game in the game list whose PPTC cache files you wish to view. This will bring up a pop-up menu.</p>
+<ol>
+<li>
+<p>Navigate to <em>Cache Management</em> &gt; <em>Open the PPTC directory</em></p>
+<p><img alt="image" src="assets/86624278-486c5600-bf80-11ea-9de5-47340af14a0c.png" /></p>
+</li>
+</ol>
+<p>To purge the PPTC cache files:
+1.  With Ryujinx open, right-click the game in the game list whose PPTC cache files you wish to purge. This will bring up a pop-up menu.</p>
+<ol>
+<li>
+<p>Navigate to <em>Cache Management</em> &gt; <em>Purge the PPTC cache</em></p>
+<p><img alt="image" src="assets/86625047-ac434e80-bf81-11ea-9dd7-7f3465f8c0d2.png" /></p>
+</li>
+</ol>
+<h1 id="graphics-enhancements">Graphics Enhancements</h1>
+<p><em>Ryujinx</em> offers a few graphics enhancement options.</p>
+<ol>
+<li>
+<p><em>Resolution Scaling</em>, which offers a much sharper image with little to no impact to performance. Resolution scaling can increase image quality much more noticeably than Anisotropic Filtering. Ryujinx's resolution scaling implementation allows native, 2x, 3x, 4x, or even custom ratios for upscaling.</p>
+</li>
+<li>
+<p><em>Anisotropic Filtering</em>, which can visibly improve graphic quality.
+<a href="https://en.wikipedia.org/wiki/Anisotropic_filtering">Wikipedia says</a>:\
+<em>In layman\'s terms, anisotropic filtering retains the \"sharpness\" of</em>
+<em>a texture normally lost by MIP map texture\'s attempts to avoid</em>
+<em>aliasing. Anisotropic filtering can therefore be said to maintain crisp</em>
+<em>texture detail at all viewing orientations while providing fast</em>
+<em>anti-aliased texture filtering.</em></p>
+</li>
+<li>
+<p><em>Shader Cache</em>, which stores onto disk the shaders that have already been compiled, negating the need to compile them again. This feature is highly sought after as it significantly reduces stuttering and FPS drops on subsequent plays of a particular game making for a smoother, more enjoyable gameplay experience. <strong>Note: Shader Cache is enabled by default.</strong></p>
+</li>
+<li>
+<p><em>Aspect Ratio Options</em>, which allow you to adjust the width-to-height ratio to your liking. <strong>Note: these options may give your game a stretched or squeezed appearance unless you are using mods that change the expected aspect ratio of the game.</strong></p>
+</li>
+</ol>
+<p><strong>To enable <em>Resolution Scaling</em>:</strong>\
+<strong>Note: Enabling this feature may cause graphical glitches on some games.</strong>\
+<strong>These settings may be changed in-game on the fly! On a standard 1080p display, 2x resolution scaling is recommended.</strong></p>
+<ol>
+<li>With <em>Ryujinx</em> open, click <em>Options &gt; Settings</em>\
+   <img alt="image" src="assets/86672580-078e3480-bfb4-11ea-8c01-86b05066a4dc.png" /></li>
+<li>Navigate to the <em>Graphics</em> tab and click the dropdown next to Resolution Scale. Select your desired level of resolution scaling.\
+   <img alt="image" src="assets/86673437-e7ab4080-bfb4-11ea-86de-876d7563f6a2.png" />
+   \
+   <strong>Click <em>Save</em></strong> to save the enhancement setting.</li>
+</ol>
+<p><strong>To enable <em>Anisotropic Filtering</em>:</strong></p>
+<p><strong>Note: enabling this feature may cause graphical glitches on some</strong>
+<strong>games.</strong></p>
+<ol>
+<li>
+<p>With <em>Ryujinx</em> open, click on <em>Options &gt; Settings</em>\
+    <img alt="image" src="assets/86279490-547aa100-bb97-11ea-97ad-549534e9d635.png" /></p>
+</li>
+<li>
+<p>Navigate to the <em>Graphics</em> tab and click the dropdown next to
+    <em>Anisotropic Filtering</em>. Set it to your desired level.\
+    <img alt="image" src="assets/86279552-6ceabb80-bb97-11ea-8b88-1e19983ed890.png" />
+    \
+    <strong>Click <em>Save</em></strong> to save the enhancement setting.</p>
+</li>
+</ol>
+<p><strong>To Manage <em>Shader Cache</em>:</strong><br />
+<strong>Shader Cache is enabled by default</strong>. There are no good reasons to disable it other than for testing purposes. </p>
+<p>Disabling this setting is strongly discouraged. However, if you absolutely must disable it:
+1. With Ryujinx open, navigate to <em>Options &gt; Settings</em>.</p>
+<ol>
+<li>Navigate to the Graphics tab and disable shader cache by unchecking the box marked "Enable Shader Cache"</li>
+</ol>
+<p>In some rare cases, a shader cache might become corrupted and crash when compiling shaders on boot. To solve this you'll have to purge the shader cache for that particular game:
+1. Right click on a game in the game list and navigate to Cache Management &gt; Purge Shader Cache.</p>
+<p><img alt="image" src="assets/98551756-e76ccb80-225a-11eb-83b8-ce99b712e7d6.png" /></p>
+<p>To view the shader cache directory for a particular game:
+1. Right click on a game in the game list and navigate to Cache Management &gt; Open Shader Cache Directory.</p>
+<p><img alt="image" src="assets/98551866-0ec39880-225b-11eb-8380-967c97bfd97f.png" /></p>
+<p>To adjust your aspect ratio:  </p>
+<p><strong>Option 1:</strong>
+- With Ryujinx open, navigate to Options &gt; Settings and click on the Graphics tab. Click on the Aspect Ratio dropdown and adjust the ratio to your liking.
+<img alt="image" src="assets/102350497-3f85a480-3f62-11eb-95b2-c9ef3d468315.png" /></p>
+<p><strong>Option 2:</strong><br />
+- With your game running, click on the aspect ratio button in the status toolbar at the bottom of the Ryujinx window.<br />
+<img alt="image" src="assets/102351140-3517da80-3f63-11eb-8d14-a2c1fc9bfd5d.png" /></p>
+<p><strong>Option 3:</strong><br />
+1. Use Option 1 and select "Stretch to Fit Window" or Option 2 and select "Stretched".</p>
+<ol>
+<li>Simply click and drag your window borders to the size you want!</li>
+</ol>
+<h1 id="portable-mode">Portable Mode</h1>
+<p>If you wish, you may use a custom folder location for all Ryujinx data (as opposed to keeping it in its default location: %appdata%). This is done via the command-line or, more conveniently, a custom shortcut. In the future, the ability to configure custom data folders may be added to the GUI.</p>
+<p><strong>NOTE: You must manually create the custom folder first before using portable mode! After enabling portable mode, you will need to copy your prod.keys file and any desired game data/save data from its original location to the new data folder.</strong></p>
+<p>To enable <em>Portable Mode</em>  </p>
+<p><strong>Option 1: (Recommended)</strong> Create a "portable" subfolder
+1. Create a subfolder in the Ryujinx program base directory called "portable". This automatically enables portable mode and utilizes this "portable" folder for system folder contents (keys, firmware, PPTC/shader caches, etc.).<br />
+<img alt="image" src="assets/111225959-14811000-85a6-11eb-9ffa-a8d2f5d899cd.png" /></p>
+<p><strong>Option 2:</strong> Command-line
+1. Open a command prompt, navigate to the location of the Ryujinx executable and type the following command: ryujinx.exe -r d:[folderpath]. For example, if your custom folder was d:\ryujinxdata, your command would be the following, without quotes (<em>THIS IS ONLY AN EXAMPLE. USE WHATEVER CUSTOM FOLDER NAME YOU PREFER</em>):
+"ryujinx.exe -r d:\ryujinxdata"</p>
+<p><img alt="image" src="assets/91670371-0ec84f00-eada-11ea-9e0a-034ff6eee440.png" /></p>
+<p>The command prompt window will become the console window when Ryujinx launches.</p>
+<p><strong>Option 3:</strong> Custom Shortcut</p>
+<ol>
+<li>Right-click on your Ryujinx executable and click Send To -&gt; Desktop Shortcut</li>
+</ol>
+<p><img alt="image" src="assets/91670437-bf365300-eada-11ea-8bde-ce0b1cb7aa73.png" /></p>
+<ol>
+<li>Locate the new shortcut on your desktop and right-click on it, then click Properties</li>
+</ol>
+<p><img alt="image" src="assets/91670516-8fd41600-eadb-11ea-8eb3-acfb97d64c65.png" /></p>
+<ol>
+<li>In the Properties window, click into the Target field and add a space onto the end of the existing command. Then add "-r [folderpath]" without quotes where [folderpath] is your own custom data folder full path, and click OK. For example, if your custom data folder was d:\ryujinxdata, the addition you would paste into the target field would be "-r d:\ryujinxdata" without the quotes.</li>
+</ol>
+<p><img alt="image" src="assets/91670585-315b6780-eadc-11ea-8534-244a46eb1536.png" /></p>
+<p>Note: On MacOS, the command would be as follows, without the quotes:
+"/Applications/Ryujinx.app/Contents/MacOS/Ryujinx -r /path/to/custom/ryujinx/folder"</p>
+<p>You can now use this shortcut any time you want to launch Ryujinx in portable mode!</p>
+<h1 id="launch-in-fullscreen">Launch in Fullscreen</h1>
+<p>Ryujinx can automatically launch games in fullscreen mode. You can enable this functionality in one of two ways:</p>
+<p><strong>Method One:</strong> In Ryujinx, click on Options, then check the box marked "Start Games in Fullscreen Mode".</p>
+<p><img alt="image" src="assets/100805553-173b6900-33ec-11eb-9702-71626f67f6e3.png" /></p>
+<p><strong>Method Two:</strong> If you launch Ryujinx from the commandline, add a --fullscreen option. Like so:</p>
+<p><img alt="image" src="assets/100806049-03dccd80-33ed-11eb-88a4-d5a56ada8bb0.png" /> </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.tabs", "navigation.indexes", "navigation.expand", "navigation.sections", "header.autohide", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+    
+  </body>
+</html>
